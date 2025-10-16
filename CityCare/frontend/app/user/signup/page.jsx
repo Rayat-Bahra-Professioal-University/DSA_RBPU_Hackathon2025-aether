@@ -80,7 +80,7 @@ export default function SignupPage() {
             Create Account
           </h1>
           <p className="text-black/60 text-sm">
-            Join Eco Chain and start your sustainable journey
+            Join CityCare and start reporting
           </p>
         </div>
 
