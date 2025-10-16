@@ -26,7 +26,7 @@ export default function SignupPage() {
     
     setTimeout(() => {
           router.push("/user/signin"); // ✅ Redirect after success
-    }, 1500);
+    }, 100);
   };
 
 
@@ -51,7 +51,7 @@ export default function SignupPage() {
       if (res.ok) {
         setTimeout(() => {
           router.push("/user/signin"); // ✅ Redirect after success
-        }, 1500);
+        }, 100);
       }
     } catch (err) {
       console.error(err);

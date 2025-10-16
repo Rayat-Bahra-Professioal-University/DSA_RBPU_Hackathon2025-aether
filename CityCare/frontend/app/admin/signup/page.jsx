@@ -38,7 +38,7 @@ export default function SignupPage() {
       if (res.ok) {
         setTimeout(() => {
           router.push("/admin/signin"); // ✅ Redirect after success
-        }, 1500);
+        }, 100);
       }
     } catch (err) {
       console.error(err);

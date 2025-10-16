@@ -34,7 +34,7 @@ export default function SigninPage() {
       if (res.ok) {
         setTimeout(() => {
           router.push("/user/dashboard"); // ✅ Redirect after success
-        }, 1500);
+        }, 100);
       }
     } catch (err) {
       console.error(err);
