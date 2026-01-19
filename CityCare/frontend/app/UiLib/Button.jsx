@@ -1,0 +1,16 @@
+const sizeObj = {
+  sm: "h-[30px] pl-2 pr-2",
+  md: "h-[35px] pl-3 pr-3",
+  lg: "h-[40px] w-[120px]"
+};
+
+export default function Button(props) {
+  return (
+    <div
+      className={`drop-shadow-2xl flex items-center justify-center rounded-lg cursor-pointer transition duration-300 transform hover:scale-105 ${sizeObj[props.size]}`}
+      style={{ backgroundColor: props.bgcolor, color: props.textcolor }}
+    >
+      {props.text}
+    </div>
+  );
+}
